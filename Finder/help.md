@@ -3,7 +3,7 @@ title: Help
 full_width: true
 ---
 
-# Copy % Cut
+# Copy & Cut
 
 | 操作场景 | 目标效果 | 第一步（键盘操作） | 第二步（粘贴操作） |
 | :--- | :--- | :--- | :--- |
