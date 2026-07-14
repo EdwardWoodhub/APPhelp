@@ -1,0 +1,91 @@
+%!TEX program = xelatex
+\documentclass[11pt,a4paper,utf8]{ctexart}
+
+% =================================================================
+% 1. 核心宏包配置
+% =================================================================
+\usepackage{amsmath,amssymb,amsfonts} % 数学公式与符号
+\allowdisplaybreaks                   %公式允许跨页面
+\usepackage{graphicx}                 % 插入图片
+\usepackage{booktabs}                 % 高质量三线表
+\usepackage{array}                    % 增强表格列格式
+\usepackage{geometry}                 % 页边距设置
+\usepackage{hyperref}                 % 超链接与PDF书签
+\usepackage{xcolor}                   % 颜色支持
+\usepackage{listings}                 % 代码块支持
+\usepackage{pdflscape}                % 引入宏包
+
+% =================================================================
+% 2. 页面与页面布局设置
+% =================================================================
+% 页边距
+\geometry{
+	top=2.5cm,
+	bottom=2.5cm,
+	left=1.5cm,
+	right=1.5cm
+}
+
+% 超链接美化
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	citecolor=teal,
+	urlcolor=magenta,
+	pdfstartview=FitH
+}
+
+% 一级标题左对齐
+\ctexset{
+	section = {
+		format += \raggedright % 在原有格式基础上添加左对齐
+	}
+}
+
+% =================================================================
+% 3. 代码块全局样式设置 (可选)
+% =================================================================
+\lstset{
+	backgroundcolor=\color{gray!5},
+	basicstyle=\small\ttfamily,
+	columns=flexible,
+	breaklines=true,
+	captionpos=b,
+	frame=single,
+%	gridcolor=gray,
+	showstringspaces=false,
+	commentstyle=\color{gray},
+	keywordstyle=\color{blue}
+}
+
+% =================================================================
+% 4. 文档元数据
+% =================================================================
+\title{\textbf{题目：题目}}
+%\author{作者姓名}
+%\date{2026.07.14} %修改日期
+
+% 字体
+%\AtBeginDocument{\tiny} %全文字体调小
+%\setlength{\arraycolsep}{2pt}
+
+% =================================================================
+% 5. 正文区域
+% =================================================================
+\begin{document}
+	
+\maketitle
+
+
+
+	
+	
+	
+
+
+	
+	
+
+	
+	
+\end{document}
