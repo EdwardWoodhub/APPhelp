@@ -1,4 +1,4 @@
-# 运行常用的app
+# 杩愯甯哥敤鐨刟pp
 
 ```
 flatpak run org.flameshot.Flameshot >/dev/null 2>&1 & disown
