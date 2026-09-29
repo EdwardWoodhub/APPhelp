@@ -1,9 +1,14 @@
-pages: '12 20 * * *' # 04:12 CST
 
-bluefin: "17 20 * * *" # build at 04:17 CST every day
-
-budgie: "22 20 * * *" # 每天 CST 04:22 构建
-
-LXQt: "27 20 * * *" # 每天 CST 04:27 构建
-
-LXQt-cloud: "32 20 * * *" # build at 04:32 CST every day
+| 项目名称           | Cron 表达式    | 构建时间 (CST) |
+| :---              | :---          | :---         |
+| pages             | `12 20 * * *` | 04:12        |
+| bluefin           | `17 20 * * *` | 04:17        |
+| budgie            | `22 20 * * *` | 04:22        |
+| LXQt              | `27 20 * * *` | 04:27        |
+| LXQt-cloud        | `32 20 * * *` | 04:32        |
+| plasma-alma       | `33 20 * * *` | 04:33        |
+| plasma-lts        | `28 20 * * *` | 04:28        |
+| x11-opensuse      | `00 20 * * *` | 04:00        |
+| wayland-opensuse  | `00 20 * * *` | 04:00        |
+| x11-nixos         | `33 19 * * *` | 03:33        |
+| wayland-nixos     | `38 19 * * *` | 03:38        |
