@@ -8,7 +8,7 @@
 | LXQt-cloud        | `32 20 * * *` | 04:32        |
 | plasma-alma       | `33 20 * * *` | 04:33        |
 | plasma-lts        | `28 20 * * *` | 04:28        |
-| x11-opensuse      | `00 20 * * *` | 04:00        |
-| wayland-opensuse  | `00 20 * * *` | 04:00        |
+| x11-opensuse      | `23 19 * * *` | 03:23        |
+| wayland-opensuse  | `28 19 * * *` | 03:28        |
 | x11-nixos         | `33 19 * * *` | 03:33        |
 | wayland-nixos     | `38 19 * * *` | 03:38        |
