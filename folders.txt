@@ -16,6 +16,7 @@ brew
 btop
 budgie-control-center
 budgie-desktop
+cntb
 contextMenu
 dbus-x11
 electerm
@@ -31,6 +32,19 @@ github
 gnome-terminal
 konsole
 mathpix
+meld
+mesa-dri-drivers
+open-vm-tools-desktop
+pluma
+polkit
 screengrab
+sddm
+syncthing
+thunar
+thunar-archive-plugin
 tilix
+v2raya
+xdg-desktop-portal-gtk
+xorg-x11-drv-vmware
+xorg-x11-server-Xwayland
 zsh
