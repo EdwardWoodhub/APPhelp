@@ -1,0 +1,104 @@
+% !TeX program = pdflatex
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{environ}
+\usepackage{CJKutf8}
+
+% ============ 全局三态开关 ============
+\newif\ifglobalnote   % 全局值：true = 开，false = 关
+\newif\ifglobalset    % 是否显式设置：true = 已设置（压制段落），false = 未设置
+\globalsetfalse       % 全局未设置，段落自治
+
+% 三个命令均用 \global\let，跨组永久生效
+\newcommand{\globalnoteon}{%
+	\global\let\ifglobalset\iftrue
+	\global\let\ifglobalnote\iftrue}
+\newcommand{\globalnoteoff}{%
+	\global\let\ifglobalset\iftrue
+	\global\let\ifglobalnote\iffalse}
+\newcommand{\globalnoteauto}{%
+	\global\let\ifglobalset\iffalse}
+
+% ============ 段落开关常量 ============
+\def\mynoteon{on}
+\def\mynoteoff{off}
+
+% ============ 中间量 ============
+\newif\ifshownote
+
+% ============ 注释段落环境 ============
+% 优先级：全局已设置 > 段落选择；全局未设置时段落不写参数默认 off（不显示）
+\NewEnviron{mynote}[1][off]{%
+	\begingroup
+	\def\mynotearg{#1}%
+	\ifglobalset
+	\ifglobalnote \shownotetrue \else \shownotefalse \fi
+	\else
+	\ifx\mynotearg\mynoteon \shownotetrue \else \shownotefalse \fi
+	\fi
+	\ifshownote
+	\par\noindent\rule{\linewidth}{0.4pt}\par
+	\BODY
+	\par\noindent\rule{\linewidth}{0.4pt}\par
+	\fi
+	\endgroup
+}
+
+% ===== 全局状态：三选一 =====
+% \globalnoteon     % ← 全局显示（所有 mynote 强制显示，无视段落参数）
+\globalnoteoff  % ← 全局关闭（所有 mynote 强制隐藏，无视段落参数）
+% \globalnoteauto % ← 全局未设置（段落自己决定，这是默认）
+\begin{document}
+	\begin{CJK*}{UTF8}{gbsn}
+		
+		正文。Here is an equation:
+		\begin{equation}
+			E = mc^2.
+		\end{equation}
+		
+		% 全局未设置（导言区默认），段落自治
+		A：[on] → 显示。
+		\begin{mynote}[on]
+			内容 A，含 \( \alpha+\beta \)。
+		\end{mynote}
+		
+		B：[off] → 隐藏。
+		\begin{mynote}[off]
+			内容 B（不应出现）。
+		\end{mynote}
+		
+		C：不写 → 默认 off，隐藏。
+		\begin{mynote}
+			内容 C（不应出现）。
+		\end{mynote}
+		
+		% 中途切换全局：无论写在 CJK* 内外、组内组外都永久生效
+		\globalnoteoff
+		D：[on] 但全局关 → 隐藏。
+		\begin{mynote}[on]
+			内容 D（不应出现）。
+		\end{mynote}
+		
+		\globalnoteon
+		E：[off] 但全局开 → 显示。多行公式：
+		\begin{mynote}[off]
+			内容 E。
+			\begin{align}
+				a &= b + c, \\
+				d &= e + f.
+			\end{align}
+		\end{mynote}
+		
+		\globalnoteauto   % 恢复段落自治；全文只需这一处（或干脆不写）
+		F：[off] → 隐藏。
+		\begin{mynote}[off]
+			内容 F（不应出现）。
+		\end{mynote}
+		
+		G：[on] → 显示。
+		\begin{mynote}[on]
+			内容 G，含中文与公式 \( \gamma \)。
+		\end{mynote}
+		
+	\end{CJK*}
+\end{document}
