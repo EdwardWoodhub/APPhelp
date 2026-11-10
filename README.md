@@ -11,6 +11,7 @@
 | **LabwcLXQt**             | 桌面环境组合         | 基于 `labwc` 窗口管理器与轻量级 LXQt 组件搭建的 Wayland 桌面方案。  |
 | **MATLAB**                | 科学计算             | 商业级数值计算、数据分析及工程建模平台。                            |
 | **MMA (Mathematica)**     | 科学计算             | 强大的符号计算与多范式编程系统，常简称为 MMA。                      |
+| **NetworkManager**        | 网络管理工具         | Linux系统自动化网络连接与配置管理套件。                             |
 | **VScode**                | 代码编辑器           | 微软推出的跨平台轻量、可扩展代码编辑器。                            |
 | **WayVNC**                | 远程桌面             | 专为 Linux Wayland 环境（基于 wlroots）设计的 VNC 服务端。         |
 | **acrobat**               | PDF 工具            | Adobe 推出的行业标准 PDF 阅读、编辑与批注软件。                     |
