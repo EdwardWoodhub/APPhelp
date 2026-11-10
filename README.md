@@ -27,9 +27,11 @@
 | **ghostty**               | 终端模拟器           | 现代且快速的跨平台 GPU 加速终端模拟器。                            |
 | **gitHub**                | 代码托管/平台        | 全球通用的 Git 代码托管与开源协作平台（或其官方客户端/CLI）。        |
 | **gnome-terminal**        | 终端模拟器           | GNOME 桌面环境内置的默认终端工具。                                 |
+| **grub2-x86_64-efi**      | 操作系统引导器       | 负责加载Linux内核并接管UEFI硬件引导。                              |
 | **konsole**               | 终端模拟器           | KDE 桌面环境内置的高级终端模拟器。                                 |
 | **mathpix**               | OCR / 公式识别       | 支持截屏快速识别复杂数学公式并转为 LaTeX 代码的 OCR 工具。          |
 | **regclient**             | 容器镜像管理工具      | 免守护进程的高效远程容器镜像运维命令行工具。                        |
 | **screengrab**            | 截图工具             | 基于 Qt 开发的轻量级桌面截屏工具。                                 |
+| **shim**                  | 安全启动垫片         | 借助微软签名跨越Secure Boot验证GRUB。                             |
 | **tilix**                 | 终端模拟器           | 支持平铺分屏（Tiling）的高级 Linux 终端模拟器。                    |
-| **zsh**                   | 命令行 Shell        | 高度可定制且功能强大的 Shell，常搭配 Oh My Zsh 使用。               |
+| **zsh**                   | 命令行 Shell         | 高度可定制且功能强大的 Shell，常搭配 Oh My Zsh 使用。              |
