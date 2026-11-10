@@ -1,0 +1,1 @@
+shim 是一个轻量级的一级 UEFI 引导加载器（First-stage Bootloader）。它专为配合 UEFI 安全启动（Secure Boot） 而设计，本身通常带有微软（Microsoft 3rd Party UEFI CA）的数字签名，因而能在开启 Secure Boot 的绝大多数 PC 主板上顺利被固件验证并执行。shim 启动后，会使用自身内置的发行版公钥或机器所有者密钥（MOK, Machine Owner Key）去验证下一阶段的引导程序（即 GRUB2），从而在不强求微软为每个频繁更新的 GRUB2 单独签名的前提下，建立起完整的安全信任链。
