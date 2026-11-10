@@ -1,0 +1,1 @@
+grub2-x86_64-efi 是 GNU GRUB 2（GRand Unified Bootloader 第二代）针对 64 位 x86（x86_64/AMD64）架构、在 UEFI 固件环境下运行的系统引导加载程序包。它的主要职责是在计算机完成 UEFI 硬件自检后，提供多系统启动菜单、载入所需的文件系统驱动（如 Btrfs、ext4、XFS 等），并将 Linux 内核（vmlinuz）及初始内存盘（initrd）正确加载进内存，最后将硬件控制权移交给操作系统内核。
