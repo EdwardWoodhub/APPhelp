@@ -1,0 +1,1 @@
+grub2（GNU GRand Unified Bootloader 第 2 代）是整个 Linux 生态中最通用、功能最完备的开源操作系统引导加载程序（Bootloader）的总称。与前面提到的具体架构二进制包（如 grub2-x86_64-efi）不同，grub2 通常指代该项目自身及其基础通用工具链（包含 grub2-mkconfig、grub2-install 等命令）。它充当计算机固件（BIOS/UEFI）与操作系统内核之间的桥梁，支持识别各种主流文件系统（如 Btrfs、ext4、XFS、ZFS 等）、解析多系统引导菜单、动态加载内核与内存盘（initrd），并在 Rancher Elemental 或 openSUSE 等不可变系统中负责管理快照子卷的指向与版本原子切换。
