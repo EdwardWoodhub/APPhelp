@@ -14,6 +14,7 @@
 | **WayVNC**                   | 远程桌面             | 专为 Linux Wayland 环境（基于 wlroots）设计的 VNC 服务端。         |
 | **acrobat**                  | PDF 工具            | Adobe 推出的行业标准 PDF 阅读、编辑与批注软件。                     |
 | **adwaita-cursor-theme**     | 桌面主题（鼠标指针）  | GNOME官方默认的鼠标光标主题资源包。                                |
+| **adwaita-icon-theme**       | 桌面系统图标主题      | GNOME桌面及GTK应用官方默认的系统图标资源包。                       |
 | **altSnap**                  | 窗口增强             | Windows 端按住 Alt 键快捷拖动/调整窗口大小的实用工具。              |
 | **atril**                    | 多格式文档阅读器      | 轻量阅读PDF等多格式文档，界面传统低占用。                           |
 | **bandwhich**                | 终端网络带宽监控      | 按进程实时展示网络流量与连接详情。                                 |
