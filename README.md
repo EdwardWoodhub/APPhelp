@@ -1,19 +1,38 @@
 | 软件名称 | 类型/领域（8字以内） | 简介（20字以内） |
 |----------|----------------------|------------------|
-| **_7zz** | 压缩解压工具 | 7-Zip命令行版，高效压缩解压。 |
 | **7zip** | 压缩解压工具 | 开源压缩软件，支持多种格式。 |
+| **EndNote**                  | 文献管理             | 科研文献管理与论文引用排版工具。                                   |
+| **Finder**                   | 文件管理器           | macOS 系统内置的默认文件管理与浏览程序。                           |
+| **LaTeX**                    | 文档排版             | 专业的科技排版系统，擅长处理复杂公式与学术论文。                    |
+| **LabwcBudgie**              | 桌面环境组合         | 基于 Wayland 窗口管理器 `labwc` 与 Budgie 组件搭建的桌面环境。     |
+| **LabwcLXQt**                | 桌面环境组合         | 基于 `labwc` 窗口管理器与轻量级 LXQt 组件搭建的 Wayland 桌面方案。  |
+| **MATLAB**                   | 科学计算             | 商业级数值计算、数据分析及工程建模平台。                            |
+| **MMA (Mathematica)**        | 科学计算             | 强大的符号计算与多范式编程系统，常简称为 MMA。                      |
+| **Mesa** | 图形驱动 | 开源OpenGL实现。 |
+| **Mesa-dri** | 图形驱动 | Mesa DRI驱动。 |
+| **MozillaFirefox** | 网页浏览器 | Mozilla Firefox（完整名）。 |
+| **NetworkManager** | 网络管理 | 网络连接管理守护进程。 |
+| **VScode**                   | 代码编辑器           | 微软推出的跨平台轻量、可扩展代码编辑器。                            |
+| **WayVNC**                   | 远程桌面             | 专为 Linux Wayland 环境（基于 wlroots）设计的 VNC 服务端。         |
+| **_7zz** | 压缩解压工具 | 7-Zip命令行版，高效压缩解压。 |
+| **acrobat**                  | PDF 工具            | Adobe 推出的行业标准 PDF 阅读、编辑与批注软件。                     |
 | **adwaita-cursor-theme** | 主题图标 | Adwaita光标主题。 |
 | **adwaita-icon-theme** | 主题图标 | GNOME默认图标主题。 |
-| **atril** | 文档查看器 | MATE文档查看器，支持PDF等。 |
+| **altSnap**                  | 窗口增强             | Windows 端按住 Alt 键快捷拖动/调整窗口大小的实用工具。              |
 | **at-spi2-core** | 无障碍支持 | 辅助技术服务提供者接口。 |
+| **atril** | 文档查看器 | MATE文档查看器，支持PDF等。 |
 | **audit** | 系统审计 | Linux审计框架工具。 |
 | **bandwhich** | 网络监控 | 按进程实时显示带宽占用。 |
+| **bash**                     | 命令行 Shell         | 大多数 Unix/Linux 系统的标准交互式命令行解释器。                   |
+| **brew**                     | 软件包管理           | 开源的软件包管理器。                                             |
 | **btop** | 系统监控 | 现代终端资源监控器。 |
 | **btrfsmaintenance** | 文件系统工具 | Btrfs维护脚本集合。 |
 | **btrfsprogs** | 文件系统工具 | Btrfs文件系统管理工具。 |
 | **budgie-control-center** | 桌面设置 | Budgie控制中心设置面板。 |
 | **budgie-desktop** | 桌面环境 | Budgie桌面环境核心。 |
 | **chromium** | 网页浏览器 | 开源Chromium浏览器。 |
+| **cntb**                     | 云服务器运维管理      | 终端管理Contabo云资源与主机的官方CLI。                            |
+| **contextMenu**              | 系统工具             | 自定义或管理操作系统右键上下文菜单的配置工具。                      |
 | **curl** | 网络工具 | 命令行文件传输工具。 |
 | **dbus-1-tools** | 系统服务 | D-Bus相关工具。 |
 | **dbus-x11** | 系统服务 | X11的D-Bus支持。 |
@@ -23,6 +42,7 @@
 | **dosfstools** | 文件系统工具 | FAT文件系统工具。 |
 | **dracut** | 系统引导 | 生成初始ramdisk镜像。 |
 | **e2fsprogs** | 文件系统工具 | ext2/3/4文件系统工具。 |
+| **electerm**                 | 跨平台终端管理工具    | 集成SSH、SFTP与文件编辑的多合一终端工具。                          |
 | **elemental-toolkit** | 系统构建 | 基于容器构建不可变Linux。 |
 | **engrampa** | 压缩解压工具 | MATE归档管理器。 |
 | **fastfetch** | 系统信息 | 快速显示系统信息。 |
@@ -38,7 +58,9 @@
 | **fuse** | 文件系统 | 用户空间文件系统支持。 |
 | **galculator** | 计算器 | GTK科学计算器。 |
 | **gedit** | 文本编辑器 | GNOME文本编辑器。 |
+| **ghostty**                  | 终端模拟器           | 现代且快速的跨平台 GPU 加速终端模拟器。                            |
 | **git** | 版本控制 | 分布式版本控制系统。 |
+| **gitHub**                   | 代码托管/平台        | 全球通用的 Git 代码托管与开源协作平台（或其官方客户端/CLI）。        |
 | **glib2-tools** | 开发工具 | GLib相关工具。 |
 | **glibc-locale-base** | 系统库 | 基础本地化数据。 |
 | **glx-utils** | 图形工具 | OpenGL相关工具。 |
@@ -47,6 +69,7 @@
 | **gptfdisk** | 磁盘分区 | GPT分区表工具。 |
 | **grim** | 截图工具 | Wayland截图工具。 |
 | **grub2** | 系统引导加载程序 | 驱动固件接管硬件，解析多系统与内核引导。 |
+| **grub2-x86_64-efi**         | 操作系统引导器        | 负责加载Linux内核并接管UEFI硬件引导。                              |
 | **gsettings-desktop-schemas** | 桌面设置 | GNOME桌面模式定义。 |
 | **gwenview** | 图像查看器 | KDE图像查看器。 |
 | **gzip** | 压缩解压工具 | gzip压缩工具。 |
@@ -105,22 +128,20 @@
 | **lxqt.screengrab** | 截图工具 | LXQt截图（带前缀）。 |
 | **lxqt.xdg-desktop-portal-lxqt** | 桌面门户 | LXQt桌面门户。 |
 | **mate.pluma** | 文本编辑器 | MATE的Pluma编辑器。 |
+| **mathpix**                  | OCR / 公式识别       | 支持截屏快速识别复杂数学公式并转为 LaTeX 代码的 OCR 工具。          |
 | **meld** | 差异比较 | 可视化文件差异比较工具。 |
-| **Mesa** | 图形驱动 | 开源OpenGL实现。 |
-| **Mesa-dri** | 图形驱动 | Mesa DRI驱动。 |
 | **mesa-dri-drivers** | 图形驱动 | Mesa DRI驱动程序。 |
-| **MozillaFirefox** | 网页浏览器 | Mozilla Firefox（完整名）。 |
 | **mtools** | 文件系统工具 | MS-DOS文件系统工具。 |
 | **nano** | 文本编辑器 | 简单终端文本编辑器。 |
 | **nethogs** | 网络监控 | 按进程网络带宽监控。 |
-| **NetworkManager** | 网络管理 | 网络连接管理守护进程。 |
 | **nextcloud-desktop** | 云同步 | Nextcloud桌面客户端。 |
+| **nix**                      | 函数式包管理器        | 声明式、可复现与原子化管理的纯函数式包管理器。                      |
 | **noto-sans-cjk-fonts** | 字体 | Noto Sans CJK字体。 |
+| **open-vm-tools** | 虚拟化工具 | VMware客户机工具。 |
+| **open-vm-tools-desktop** | 虚拟化工具 | VMware桌面集成工具。 |
 | **openbox** | 窗口管理器 | 轻量级窗口管理器。 |
 | **openssh-clients** | 远程访问 | OpenSSH客户端。 |
 | **openssh-server** | 远程访问 | OpenSSH服务器。 |
-| **open-vm-tools** | 虚拟化工具 | VMware客户机工具。 |
-| **open-vm-tools-desktop** | 虚拟化工具 | VMware桌面集成工具。 |
 | **parted** | 磁盘分区 | GNU分区工具。 |
 | **patterns-lxqt-lxqt** | 桌面环境 | LXQt桌面模式包。 |
 | **patterns-xfce-xfce** | 桌面环境 | XFCE桌面模式包。 |
@@ -143,6 +164,7 @@
 | **screengrab** | 截图工具 | 截图工具。 |
 | **sddm** | 显示管理器 | 简单桌面显示管理器。 |
 | **sed** | 文本工具 | 流编辑器。 |
+| **shim**                     | 安全启动垫片         | 借助微软签名跨越Secure Boot验证GRUB。                             |
 | **slurp** | 截图工具 | Wayland区域选择工具。 |
 | **snapper** | 快照管理 | Btrfs快照管理工具。 |
 | **spectacle** | 截图工具 | KDE截图工具。 |
@@ -186,12 +208,13 @@
 | **xfce4-session** | 桌面会话 | XFCE会话管理。 |
 | **xfce4-terminal** | 终端模拟器 | XFCE终端。 |
 | **xfwm4** | 窗口管理器 | XFCE窗口管理器。 |
-| **xorg.xf86inputvmmouse** | 输入驱动 | Xorg VMware鼠标驱动。 |
 | **xorg-x11-drv-vmware** | 图形驱动 | Xorg VMware驱动。 |
 | **xorg-x11-server** | 显示服务器 | X.Org显示服务器。 |
 | **xorg-x11-server-Xwayland** | 显示服务器 | Xwayland兼容层。 |
+| **xorg.xf86inputvmmouse** | 输入驱动 | Xorg VMware鼠标驱动。 |
 | **xorriso** | 光盘工具 | ISO镜像操作工具。 |
 | **xray** | 代理工具 | Xray代理核心。 |
 | **xscreensaver** | 屏保工具 | X屏幕保护程序。 |
 | **xterm-resize** | 终端工具 | Xterm调整大小工具。 |
 | **xwayland** | 显示服务器 | X11在Wayland上的兼容层。 |
+| **zsh**                      | 命令行 Shell        | 高度可定制且功能强大的 Shell，常搭配 Oh My Zsh 使用。              |
