@@ -8,8 +8,8 @@
 | **LabwcLXQt**                | 桌面环境组合         | 基于 `labwc` 窗口管理器与轻量级 LXQt 组件搭建的 Wayland 桌面方案。  |
 | **MATLAB**                   | 科学计算             | 商业级数值计算、数据分析及工程建模平台。                            |
 | **MMA (Mathematica)**        | 科学计算             | 强大的符号计算与多范式编程系统，常简称为 MMA。                      |
-| **Mesa** | 图形驱动 | 开源OpenGL实现。 |
 | **Mesa-dri** | 图形驱动 | Mesa DRI驱动。 |
+| **Mesa** | 图形驱动 | 开源OpenGL实现。 |
 | **MozillaFirefox** | 网页浏览器 | Mozilla Firefox（完整名）。 |
 | **NetworkManager** | 网络管理 | 网络连接管理守护进程。 |
 | **VScode**                   | 代码编辑器           | 微软推出的跨平台轻量、可扩展代码编辑器。                            |
@@ -131,6 +131,7 @@
 | **mathpix**                  | OCR / 公式识别       | 支持截屏快速识别复杂数学公式并转为 LaTeX 代码的 OCR 工具。          |
 | **meld** | 差异比较 | 可视化文件差异比较工具。 |
 | **mesa-dri-drivers** | 图形驱动 | Mesa DRI驱动程序。 |
+| **mesa** | 图形驱动 | 开源OpenGL实现。 |
 | **mtools** | 文件系统工具 | MS-DOS文件系统工具。 |
 | **nano** | 文本编辑器 | 简单终端文本编辑器。 |
 | **nethogs** | 网络监控 | 按进程网络带宽监控。 |
