@@ -100,6 +100,7 @@
 | **less** | 文本工具 | 分页文本查看器。 |
 | **liberation-mono-fonts** | 字体 | Liberation Mono字体。 |
 | **libheif** | 图像库 | HEIF图像格式支持。 |
+| **libinput-tools** | 输入设备调试工具 | 查看和调试鼠标、触摸板、键盘等输入设备。 |
 | **libwebp** | 图像库 | WebP图像格式支持。 |
 | **lvm2** | 存储管理 | 逻辑卷管理工具。 |
 | **lximage-qt** | 图像查看器 | LXQt图像查看器。 |
