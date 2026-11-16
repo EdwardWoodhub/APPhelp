@@ -189,6 +189,7 @@
 | **v2raya** | 代理工具 | V2RayA Web管理界面。 |
 | **vim** | 文本编辑器 | Vi改进版文本编辑器。 |
 | **vlc** | 媒体播放器 | 多媒体播放器。 |
+| **vnstat** | 网络流量监控工具 | 基于内核计数器的轻量级持久化流量统计工具。 |
 | **vscode** | 代码编辑器 | Visual Studio Code。 |
 | **waybar** | 状态栏 | Wayland高度可定制状态栏。 |
 | **wayvnc** | 远程桌面 | Wayland VNC服务器。 |
