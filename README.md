@@ -64,7 +64,7 @@
 | **glib2-tools** | 开发工具 | GLib相关工具。 |
 | **glibc-locale-base** | 系统库 | 基础本地化数据。 |
 | **glx-utils** | 图形工具 | OpenGL相关工具。 |
-| **gnome-extension-manager** | ？ | 社区版？？？。 |
+| **gnome-extension-manager** | 桌面扩展管理器 | 集成在线商店的第三方GNOME扩展管理工具。 |
 | **gnome-terminal** | 终端模拟器 | GNOME终端。 |
 | **google-chrome** | 网页浏览器 | Google Chrome浏览器。 |
 | **gptfdisk** | 磁盘分区 | GPT分区表工具。 |
