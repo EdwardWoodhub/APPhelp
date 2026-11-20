@@ -1,0 +1,136 @@
+% !TeX program = xelatex
+% 本文件中的姓名、联系方式、单位、项目、数据、奖项及照片均为虚构示例。
+% 请在正式使用时替换为自己的真实信息。
+
+\documentclass{claritycv}
+
+% claritycv.tex 即默认风格；字体、颜色、字号、间距和页面边距等默认值全部定义在 claritycv.cls。
+% 需要整份简历换风格时再使用 \resumesetup；当前文件只保留内容和必要的单条覆盖。
+\begin{document}
+
+% \resumeheader[键=值,...]{姓名}{联系信息}：设置头部；省略 photo 时不显示照片。
+% name-size：姓名字号；默认 16bp；填写 LaTeX 长度 -> 仅调整本次头部的姓名大小。
+% name-color / name-weight：姓名颜色 / 字重；默认 ResumePrimary / inherit；只覆盖本次头部。
+% photo：照片来源；图片路径 -> 显示照片，none -> 不显示照片；只按比例缩放，不裁切透明区。
+% layout：照片布局；默认 overlay；overlay -> 叠放，flow -> 参与左右分栏。
+% align：照片纵向对齐；默认 center；overlay 和 flow 均支持 top、center、bottom。
+% photo-width：照片最大宽度；默认 2.75cm；值为 LaTeX 长度。
+% photo-max-height：照片最大高度；默认 3.15cm；值为 LaTeX 长度。
+% photo-line-gap：照片与首个章节线距离；默认 0.18em；值为 LaTeX 长度。
+% photo-x-shift：水平位移；默认 0pt；负值 -> 左，正值 -> 右。
+% photo-y-shift：垂直位移；默认 0pt；负值 -> 下，正值 -> 上。
+% column-gap：信息与照片栏间距；默认 1em；值为 LaTeX 长度。
+% name-gap：姓名与联系信息间距；默认 0.78em；值为 LaTeX 长度。
+% after-skip：头部后的间距；默认 0.98em；值为 LaTeX 长度。
+% \resumecontact[键=值,...]{图标}{内容}：图标与文字可分别覆盖 color / size，文字还可覆盖 weight。
+% 其他局部键为 icon-width、icon-gap、item-gap；均继承 contact- 开头的全局参数。
+\resumeheader[
+  photo={images/placeholder-id-photo-transparent.png}
+]{林知远}{%
+  \resumecontact{\faPhone}{联系电话：138-0000-0000}
+  \resumecontact{\faEnvelope}{邮箱：\href{mailto:lin.zhiyuan.ai@example.com}{\nolinkurl{lin.zhiyuan.ai@example.com}}}\\
+  \resumecontact{\faGlobe}{技术博客：\href{https://example.com/lin-ai-lab}{\nolinkurl{https://example.com/lin-ai-lab}} \textcolor{ResumeAccent}{\textbf{（28万+访问量）}}}
+  \\
+  \resumecontact{\faGithub}{代码主页：\href{https://example.com/lin-zhiyuan-code}{\nolinkurl{https://example.com/lin-zhiyuan-code}}}\\
+  \resumecontact{\faGithub}{项目贡献：\href{https://example.com/chronos-lab}{ChronosLab}\textcolor{ResumeAccent}{(\faStar\hspace{0.25em}\textbf{4.8k stars})}、\href{https://example.com/opti-grid}{OptiGrid} \textcolor{ResumeAccent}{(\faStar\hspace{0.25em}\textbf{36.2k stars})}}
+}
+
+\section{个人简介}
+\begin{itemize}
+  \item \textbf{个人概况：}2025年毕业·计算机与智能工程系（人工智能与数据工程专业）；AI 平台与算法工程师，曾主导/参与 8+ 个智能项目从需求调研、方案设计、模型验证到上线交付的完整流程。发表/在审智能计算方向论文 4 篇（CCF A ×1、SCI 一区 ×1、CCF B ×1、EI ×1）、开放数据挑战赛银牌、国家级学科竞赛奖项 9+ 项。
+  \item \textbf{能力概况：}涵盖 Python、SQL、PyTorch、LightGBM、时序特征工程、异常检测、预测区间、约束优化、模型评测及 FastAPI / Docker 工程化部署；具备数据建模、算法设计、服务治理与业务落地能力。
+\end{itemize}
+
+\section{工作经历}
+
+% \resumeentry[键=值,...]{主标题}{副标题}{开始时间}{结束时间}：时间连接符和间距由类生成。
+% style：条目样式；默认 plain；plain -> 普通行，banner -> 带浅色背景和左色条。
+% color：本条强调色；默认继承全局 entry-color。
+% logo：条目图标；默认不显示；图片路径 -> 在 banner 左侧显示。
+% separator：主、副标题分隔符；默认继承 entry-separator（dash）；dash -> 短横线，bar -> 竖线。
+% title-weight / subtitle-weight / date-weight：分别覆盖三级字重。
+% title-color / subtitle-color / date-color：分别覆盖三级颜色；entry 表示继承本条 color。
+% 其他参数均与全局同名参数对应，只需去掉 entry- 前缀。
+\resumeentry[style=banner]
+  {星澜能源集团：星澜智慧能源有限公司（海岳数智技术服务有限公司）}
+  {AI 应用开发工程师}
+  {2025.07}{至今}
+\begin{itemize}
+  \item \textbf{新能源功率预测平台：}基于 TFT 与 LightGBM 服务 60+ 个场站，日内预测 MAPE 由 16.4\% 降至 8.7\%，分析耗时降低 72\%。
+  \item \textbf{智能排产优化引擎：}基于 OR-Tools 与约束建模实现订单、物料和设备协同排程，方案生成时间由 45 分钟缩短至 6 分钟，计划按期达成率由 88.5\% 提升至 96.2\%。
+  \item \textbf{\hyperlink{proj-monitoring}{\textcolor{black}{设备异常预警系统}}：}基于多变量时间序列与无监督异常检测处理日均 120 万条遥测数据，故障召回率达到 93.4\%，误报率降低 38.6\%，可提前 2--6 小时发出预警。
+\end{itemize}
+
+\resumeentry[style=banner]
+  {云栈科技集团：云栈供应链管理有限公司（虚构数字零售企业 Top5）}
+  {算法工程师（实习）}
+  {2025.01}{2025.06}
+\begin{itemize}
+  \item 参与需求预测与库存优化模型开发，完成特征构建、滚动验证、误差分析和在线推理接口封装。
+\end{itemize}
+
+\section{项目经历}
+
+% \projectbadge[键=值,...]{完整标签文字}：不自动添加“项目”前缀或编号。
+% color / text-color：背景色 / 文字色，默认 ResumePrimary / white。
+% font-size / font-weight：默认 8.3pt / bold（可选 regular）。
+% radius / padding-x / padding-y / after-skip：默认 5pt / 5pt / 2pt / 0.6em。
+% 全局覆盖使用 \resumesetup 的 project-badge- 前缀参数；局部覆盖只影响当前标签。
+% \hypertarget{唯一 ID}{标题} 放在条目标题内部，随标题分页；工作经历用 \hyperlink{同一 ID}{文字} 跳转。
+% 默认按外层字体的参考字形中心对齐；无需手动添加标签后间距。
+
+\resumeentry
+  {\hypertarget{proj-energy}{\projectbadge{项目一}园区能耗预测与调度平台}}
+  {时间序列 / 运筹优化}
+  {2024.08}{2025.01}
+\begin{itemize}
+  \item \textbf{项目背景：}面向商业园区电、冷、热负荷构建预测与调度平台，辅助削峰填谷和设备运行计划制定。
+  \item \textbf{核心技术：}Python、PyTorch、LightGBM、OR-Tools、FastAPI、Redis、Docker。
+  \item \textbf{主要工作：}
+    \begin{enumerate}
+      \item \textbf{数据管线：}\cvC{1}接入气象、智能电表和日历数据；\cvC{2}完成时间对齐、缺失修复与周期特征构建。
+      \item \textbf{预测模型：}\cvP{1}组合 TFT 与梯度提升模型；\cvP{2}引入分位数损失和滚动验证，输出可信预测区间。
+      \item \textbf{调度优化：}\cvR{1}建立容量、峰谷电价和设备启停约束；\cvR{2}将示例园区综合调度成本降低 \textcolor{ResumeAccent}{\textbf{12.4\%}}。
+    \end{enumerate}
+\end{itemize}
+
+
+\resumeentry
+  {\hypertarget{proj-monitoring}{\projectbadge{项目二}设备异常监测与预警系统}}
+  {异常检测 / 在线推理}
+  {2024.03}{2024.07}
+\begin{itemize}
+  \item \textbf{项目方案：}基于 PyTorch 与 Isolation Forest 处理工业设备遥测，使用 FastAPI、Redis 和 Docker 部署实时分级预警服务。
+  \item \textbf{项目成果：}日均处理 120 万条数据，故障召回率达到 \textcolor{ResumeAccent}{\textbf{93.4\%}}，误报率降低 \textcolor{ResumeAccent}{\textbf{38.6\%}}。
+\end{itemize}
+
+
+\section{个人技能}
+\begin{itemize}
+  \item \textbf{编程与框架：}Python、SQL、PyTorch、FastAPI、Git、Docker。
+  \item \textbf{算法与优化：}时间序列预测、异常检测、特征工程、模型评测、运筹优化。
+  \item \textbf{工程化能力：}FastAPI、Redis、Docker、CI/CD、监控告警与服务性能分析。
+\end{itemize}
+
+\section{教育背景}
+% 本条只覆盖标题和副标题颜色；字重、字号、日期及间距继续继承全局默认值。
+\resumeentry[title-color=black,subtitle-color=black]
+  {海棠理工大学}
+  {人工智能与数据工程 \quad 本科}
+  {2020.09}{2024.06}
+\begin{itemize}
+  \item \textbf{GPA：}3.7/4.0（专业前 10\%）。
+  \item \textbf{主修课程：}数据结构、机器学习、数据库系统、自然语言处理。
+\end{itemize}
+
+\section{学科竞赛}
+\begin{multicols}{2}
+\begin{itemize}[label={\color{ResumePrimary}\faTrophy}]
+  \item 星桥杯智能数据挑战赛全国一等奖
+  \item 全国高校算法应用挑战赛二等奖
+  \item 青年人工智能创新竞赛银奖
+  \item 校级数学建模挑战赛一等奖
+\end{itemize}
+\end{multicols}
+
+\end{document}
