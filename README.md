@@ -36,6 +36,7 @@
 | **curl** | 网络工具 | 命令行文件传输工具。 |
 | **dbus-1-tools** | 系统服务 | D-Bus相关工具。 |
 | **dbus-x11** | 系统服务 | X11的D-Bus支持。 |
+| **deepseekHarness** |	开源Agent框架	| 一切皆插件的智能体组装底座。|
 | **device-mapper** | 存储管理 | 设备映射器用户空间工具。 |
 | **distrobox** | 容器工具 | 在容器中运行其他发行版。 |
 | **dolphin** | 文件管理器 | KDE文件管理器。 |
